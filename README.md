@@ -34,28 +34,40 @@ Criar a página de redefinição de senha com campos de entrada e verificação.
 
 **Medição de Prioridade Rice:**
 
-**Reach (Abrangência):** Alta
-A funcionalidade de login é essencial para que os usuários acessem o sistema e façam agendamentos de consultas médicas.
-Todos os usuários registrados precisam passar pelo processo de login para utilizar a plataforma.
+**Reach (alcançar):**
+As tarefas técnicas descritas são relevantes para todos os usuários do sistema, tornando o Reach alto.
 
+**Impact (impacto):**
+As tarefas descritas permitem que os usuários acessem informações importantes, agendem consultas e gerenciem suas contas, portanto, o Impacto é alto.
 
+**Confidence (confiança):**
+A equipe tem experiência em autenticação e autorização de usuários, portanto, a Confiança é alta.
 
-**Impact (Impacto):** Alta
-O login personalizado permite que os usuários acessem suas informações, histórico de consultas e perfil.
-Permite que o sistema personalize a experiência do usuário com base em suas preferências e histórico.
+**Effort (esforço):**
+O Effort varia de acordo com a tarefa, mas no geral, considerando a experiência da equipe, pode ser considerado moderado.
 
-**Confidence (Confiança):** Média
-A equipe de desenvolvimento possui experiência em implementar funcionalidades de login em projetos anteriores.
-Os recursos necessários para implementação estão disponíveis e bem documentados.
+Usando a fórmula Rice, a prioridade para cada tarefa pode ser calculada como:
 
-**Effort (Esforço):** Médio
-As tarefas técnicas envolvem a implementação do formulário de login, integração com sistema de autenticação existente e personalização do perfil do usuário.
-Não há dependências externas significativas além do sistema de autenticação.
+**Prioridade = (Reach x Impact x Confidence) / Effort**
+
+**Integrar com o sistema de autenticação**
+
+Prioridade = (5 x 5 x 4) / 5 = 20
+
+**Criar a página de perfil do usuário:**
+
+Prioridade = (5 x 4 x 4) / 3 = 26.67
+
+**Implementar a autorização de acesso:**
+
+Prioridade = (5 x 5 x 4) / 5 = 20
+
+**Recuperação de Senha**
+
+Prioridade = (5 x 4 x 4) / 5 = 20
 
 **Conclusão:**
-Com base na medição de prioridade Rice, a funcionalidade de login recebe alta prioridade para ser incluída no próximo release, dada a sua abrangência e impacto, com um esforço e confiança médios.
-
-
+Com base na medição de prioridade Rice, a tarefa mais importante é criar a página de perfil do usuário, seguida pela configuração da autenticação do usuário e pela implementação da autorização de acesso. Portanto, a equipe deve se concentrar na criação da página de perfil do usuário como a primeira tarefa a ser concluída.
 
 
 
