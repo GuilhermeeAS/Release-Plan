@@ -1,5 +1,6 @@
 Release Plan 
 Funcionalidade de Login para Agendamentos de Consultas Médicas On-line
+
 Guilherme Alves Soares - RA: 22.01540-0
 
 User Story:
@@ -36,8 +37,6 @@ Reach (Abrangência): Alta
 A funcionalidade de login é essencial para que os usuários acessem o sistema e façam agendamentos de consultas médicas.
 Todos os usuários registrados precisam passar pelo processo de login para utilizar a plataforma.
 
-
-
 Impact (Impacto): Alta
 O login personalizado permite que os usuários acessem suas informações, histórico de consultas e perfil.
 Permite que o sistema personalize a experiência do usuário com base em suas preferências e histórico.
@@ -53,13 +52,6 @@ Não há dependências externas significativas além do sistema de autenticaçã
 Conclusão:
 Com base na medição de prioridade Rice, a funcionalidade de login recebe alta prioridade para ser incluída no próximo release, dada a sua abrangência e impacto, com um esforço e confiança médios.
 
-Observações:
-Para a implementação do login, é necessário considerar questões de segurança, como proteção contra ataques de força bruta e armazenamento seguro de senhas.
-Recomenda-se realizar testes rigorosos para garantir que o sistema de log in funcione corretamente e seja fácil de usar.
-É importante fornecer feedback adequado ao usuário durante o processo de login, informando-o sobre erros de entrada ou falhas de autenticação.
-
-Revisão e Entrega:
-Após a conclusão das tarefas técnicas, a funcionalidade de login deverá ser revisada internamente pela equipe de desenvolvimento para garantir sua eficácia e segurança. Após a revisão, a funcionalidade poderá ser implantada em um ambiente de produção e disponibilizada para os usuários finais. É recomendável monitorar a funcionalidade em produção para garantir sua estabilidade e corrigir eventuais problemas identificados pelos usuários.
 
 
 
